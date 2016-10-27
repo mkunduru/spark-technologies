@@ -55,8 +55,18 @@ Custom Styles
 */
 
 body {
-	font: 400 16px/22px "Source Sans Pro", sans-serif;
+	font: 400 20px/22px "Source Sans Pro", sans-serif;
+	color: #555;
+}
+
+main {
 	width: 1280px;
+	margin: 0 auto;
+}
+
+hr {
+	border: none;
+	border: 1px solid #fff;
 }
 
 /* 
@@ -195,7 +205,7 @@ footer {
 
 footer .left-box {
 	float: left;
-	padding: 50px 50px 100px 100px;
+	padding: 50px 50px 0 100px;
 	width: 450px;
 }
 
@@ -445,15 +455,20 @@ Homepage
 	padding: 100px 0 0 100px;
 }
 
-.tour-button {
+a.tour-button {
 	font-size: 24px;
 	font-weight: 200;
-	border-color: #fff;
-	border-radius: 5px;
+	color: #fff;
+	border-radius: 10px;
 	text-align: right;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin: 50px 150px 0 0;
+	display: block;
+	width: 232px;
+	padding: 15px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
 /* 
